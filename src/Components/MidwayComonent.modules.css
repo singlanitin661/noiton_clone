@@ -1,0 +1,80 @@
+.Midway{
+    padding-top: 30px;
+}
+.House-component{
+    height: 660px;
+    width: 700px;
+    background-color: rgb(231, 236, 236);
+    position: relative;
+    border-radius: 30px;
+    padding: 30px;
+    padding-top: 10px;
+}
+.midway_heading{
+    font-size: 60;
+    font-weight: 700;
+}
+.House-component:hover{
+    background-color:rgba(231, 236, 236, 0.662);
+    cursor: pointer;
+}
+.House2{
+    max-width:90% ;
+    max-height: 90%;
+    margin-top: 20px;
+    bottom: 0px;
+    position: relative;
+    border-radius: 10px;
+}
+.house{
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+}
+.mid-lower{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.OrdinaryCards{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(231, 236, 236);
+    border-radius: 20px;
+    margin: 30px;
+    margin-top: 0px;
+    padding: 20px;
+    justify-content: center;
+}
+.OrdinaryCards:hover{
+    background-color:rgba(231, 236, 236, 0.662);
+    cursor: pointer;
+}
+.MidWayCardImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.midway_anchor{
+    color: rgb(51,118,185);
+    text-decoration: none;
+}
+
+.Mid-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+}
+.Mid-upper-left{
+    display: inline;
+    justify-content: center;
+    align-items:center;
+}
+.Mid-upper-right{
+    margin-left: -500px;
+    margin-bottom: -90px;
+    z-index: 2;
+}

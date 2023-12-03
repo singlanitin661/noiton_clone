@@ -1,0 +1,27 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+  }
+  
+.heading {
+    /* Your heading styles */
+    font-weight: bold;
+    font-size: 8vh;
+}
+  
+.label {
+    padding: 10px;
+}
+
+.copyright{
+    font-size: 12px;
+}
+.copyright_top{
+    font-weight: 450;
+}
+.copyright_bottom{
+    color: #9e9c9c;
+}

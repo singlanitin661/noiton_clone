@@ -1,0 +1,16 @@
+.carousel-indicators .active::before {
+    content: "Slide " attr(data-slide-to);
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+  
+.custom-carousel{
+    /* border: 10px solid #e8e6e6 ;  */
+    transform:scale(0.60); 
+    height: 100px;
+    background-color: yellow;
+    margin:0 0 ;
+    border-radius: 10px;
+}

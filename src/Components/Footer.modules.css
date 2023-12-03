@@ -1,0 +1,69 @@
+li{
+    list-style: none;
+}
+
+.notion-container{
+    display: flex;
+    flex-direction: column;
+}
+.notion-Main{
+    display: flex;
+    flex-direction: row;
+}
+.notion-Main:hover{
+    cursor: pointer;
+}
+.NotionLogo{
+    height: 50px;
+}
+.SocialHandles-container{
+    display: flex;
+    flex-direction: row;
+}
+.SocialHandles{
+    width: 30px;
+    height: 30px;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.SocialHandles:hover{
+    cursor: pointer;
+}
+
+.container-styler{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto ;
+}
+
+.outer{
+    margin: 5px 50px;
+}
+
+.inner{
+    /* border: 5px solid black; */
+    margin: 10px;
+}
+
+.Text-styler{
+    font-size:large;
+    font-weight: bold;
+    margin: 0px 0px 10px;
+}
+
+.Footer-anchor{
+    font-size: 16px;
+    margin: 0px 0px 5px;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration : none;
+    color: grey;
+}
